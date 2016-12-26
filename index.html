@@ -4,8 +4,9 @@
 body{
     width:1060px;
     margin:50px auto;
+    background-color: #F2F3F4;
 }
-h2 {font-family:helvetica; text-align: center;font-size: 40px;color:#566573;}
+h2 {font-family:helvetica; text-align: center;font-size: 40px;color:#424949;}
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
 rect:hover {  fill:blue; }
@@ -44,7 +45,7 @@ rect:hover {  fill:blue; }
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
-    var barColor = '#F4F6F6';
+    var barColor = '#21618C';
     function segColor(c){ return {air:"#AED6F1", water:"#2980B9",land:"#154360"}[c]; }
     
     // compute total for each state.
